@@ -496,7 +496,41 @@ body {
 /* Crisis Page (4) */
 
 /* 20. Crisis Info Section */
+body {
+  background-color: white;
+}
+.emergency-resources-container {
+  text-align: center;
+  padding: 4rem;
+}
+/*
+.online-national-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+} 
+*/
 
+.button-crisis {
+  background-color: #C34910;
+  border: none;
+  border-radius: 8px;
+  font: Montserrat;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  width: 140px;
+  height: 100px;
+  text-align: center;
+  word-wrap: normal;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 15px 15px;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 
 /* 21. Footer */
