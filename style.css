@@ -85,6 +85,7 @@ h6 {
   font-size: 1.0rem;
 }
 
+
 /* 2. Navbar Section */
 /* 2a. Navbar Section - Main */
 .main-header {
@@ -318,7 +319,149 @@ mark {
 
 /* 6. Testimonials Section */
 
+.testimonials-section h3 {
+  text-align: center; 
+  padding: 20px; 
+}
+
+.testimonials-section {  
+ 
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;  
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;  
+    background-color: #f2f2f2; 
+}
+
+.testimonials-image img {
+    flex: 1 0 0; 
+    min-width: 320px; 
+    max-width: 100vw; 
+    height: auto; 
+    object-fit: cover;
+    box-sizing: border-box; 
+    margin:0;
+    padding: 0; 
+    display: block; 
+  }
+      
+  .testimonials-quote {
+    flex: 1 0 0;  
+    min-width: 320px; 
+    max-width: 100wv; 
+    overflow-wrap: break-word; 
+    text-align: left; 
+    background-color: #f2f2f2;     
+    box-sizing: border-box;  
+    padding-left: 2rem;
+    padding-right: 2rem;  
+    padding-bottom: 2rem;
+  }
+
+.testimonials-quote blockquote {
+  padding: 4rem 30px; 
+}
+
+.testimonials-quote h5 {
+  text-align: right; 
+  font-style: italic; 
+}
+
+@media (min-width: 1040px) {
+ .testimonials-image img {
+   width: auto; 
+ }
+}
+
+@media (max-width: 640) {
+  .testimonials-quote {
+    text-align: center; 
+  }
+}
+
+@media (max-width: 640) {
+  .testimonials-section h3 {
+    padding-top: 2rem; 
+  }
+}
 /* 7. Student Resources Section */
+
+.student-resources-section h3 {
+  text-align: center; 
+  padding: 20px; 
+}
+
+.student-resources-section {  
+ 
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;  
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;  
+    background-color: #a1a19b; 
+}
+
+.student-resources-image img {
+    flex: 1 0 0; 
+    min-width: 320px; 
+    max-width: 100vw; 
+    height: auto; 
+    object-fit: cover;
+    box-sizing: border-box; 
+    margin:0;
+    padding: 0; 
+    display: block; 
+  }
+      
+  .student-resources-text {
+    flex: 1 0 0;  
+    min-width: 320px; 
+    max-width: 100wv; 
+    overflow-wrap: break-word; 
+    text-align: left; 
+    background-color: #a1a19b;     
+    box-sizing: border-box;  
+    padding-left: 2rem;
+    padding-right: 2rem;  
+    padding-bottom: 2rem;
+    padding-top: 2rem; 
+  }
+
+.student-resources p {
+  padding: 4rem 30px; 
+}
+
+.student-resources h5 {
+  text-align: right; 
+  font-style: italic; 
+}
+
+@media (min-width: 1040px) {
+ .student-resources-image img {
+   width: auto; 
+ }
+}
+
+@media (max-width: 640) {
+  .student-resources-text {
+    text-align: center; 
+  }
+}
+
+@media (max-width: 640) {
+  .student-resources-section h3 {
+    padding-top: 2rem; 
+  }
+}
 
 /* 8. Other Basic Needs Resources Section */
 
