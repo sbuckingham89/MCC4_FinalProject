@@ -354,12 +354,19 @@ mark {
 
 .background-info h3 {
   text-align: center; 
-  padding: 20px; 
+  padding: 30px; 
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;  
+  justify-content: center;
+  align-content: center; 
+  align-items: center;  
+  box-sizing: border-box; 
+  margin: 0;  
+  padding: 0; 
 }
 
 .flex-container > div {
@@ -371,7 +378,7 @@ mark {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%
+  width: 100%
 }
 
 .background-info li {
@@ -391,6 +398,10 @@ mark {
   color: black;
   font-size: 28px;
   font-weight:bold;
+}
+
+.video {
+  padding: 20px;
 }
 /* 6. Testimonials Section */
 
