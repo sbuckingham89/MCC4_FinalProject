@@ -567,8 +567,97 @@ mark {
 /* 9. Chat with Someone Section */
 
 /* 10. Get Involved Section */
+.get-involved-section {
+  position: relative;
+  max-height: 100vh;
+  margin-top: 5rem;
+  flex: wrap;
+  justify-content: center;
+}
+
+.get-involved-overlay {
+  background-color: #000;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+
+/*.get-involved-image-container  {
+/*top: 0;
+left: 0;
+width: 100vw;
+*/
 
 
+
+
+.get-involved-image {
+
+  width: 100vw;
+  max-height: 80vh;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+
+.get-involved-text-container {
+  text-align: center;
+  z-index: 15;
+  color: #fff;
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  text-align: center;
+  line-height: 1.5;
+  /* position: flex; */
+  margin: 0 auto;
+  width: 100%;
+}
+
+.get-involved-text h3 {
+  margin-top: 0rem;
+  background-color: #231911; 
+  color: #fff; 
+  
+  
+}
+.get-involved mark {
+  background-color: #231911; 
+  color: #fff;  
+  font-size: 3px;
+}
+
+div .get-involved-subnotes-overlay  {
+  font-size: 3px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2rem; 
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.get-involved-subnotes p{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.involved-button{
+  background-color: #C34910;
+  border: none;
+  padding: 15px 20px;
+  font-size: 10px;
+  color: #F2F2F2;
+  border-radius: 8px; /* 8px rounded corners */
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 75px;
+}
 
 
 /* Student Mental Health Resources Page (2) */
