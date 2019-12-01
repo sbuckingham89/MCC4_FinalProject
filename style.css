@@ -725,15 +725,61 @@ body {
 /* Get Involved Page (3) */
 
 /* 15. Helper Directory Section */
-
+.involve-intro {
+  text-align: center;
+  font: Montserrat;
+  background-color: #F2F2F2;
+  justify-content: space-around;
+  padding: 4rem;
+}
 /* 16. Student Helpers Section */
+.involve-student-container {
+  background-color: #7B9A7B;
+  text-align: center;
+  padding: 4rem;
+}
 
+.involve-student-card-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
 /* 17. Faculty Helpers Section */
+.involve-campus-container {
+  background-color: #F2F2F2;
+  text-align: center;
+  padding: 4rem;
+}
 
+.involve-campus-card-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
 /* 18. Donors & Alumni Section */
+.involve-community-container {
+  background-color: #A1A19B;
+  text-align: center;
+  padding: 4rem;
+}
 
+.involve-community-card-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
 /* 19. Therapist Volunteers Section */
+.involve-prof-container {
+  background-color: #F2F2F2;
+  text-align: center;
+  padding: 4rem;
+}
 
+.involve-prof-card-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
 
 /* Crisis Page (4) */
 
