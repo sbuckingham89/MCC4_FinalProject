@@ -560,6 +560,7 @@ mark {
 
 
 
+
 /* Student Mental Health Resources Page (2) */
 
 /* 11. Resource Directory Section */
@@ -713,6 +714,9 @@ body {
 
 /* Get Involved Page (3) */
 
+
+
+
 /* 15. Helper Directory Section */
 
 /* 16. Student Helpers Section */
@@ -733,6 +737,10 @@ body {
 .emergency-resources-container {
   text-align: center;
   padding: 10rem;
+  justify-content: center;
+  flex: wrap;
+  overflow-wrap: break-word;
+
 }
 /*
 .online-national-container {
@@ -757,6 +765,7 @@ body {
   display: inline-block;
   font-size: 12px;
   margin: 15px 15px;
+  
 }
 
 .button:hover {
