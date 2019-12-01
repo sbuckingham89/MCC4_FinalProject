@@ -16,6 +16,8 @@
   <!--Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -33,6 +35,16 @@
         <!-- <img src="images/uhost-icon.png" alt="Higher Ed Institution logo"> -->
         <span>Higher Ed Logo</span>
       </a>
+
+      <!-- Search bar -->
+      <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Type to search">
+        <a class="search-btn" href="#">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+      <!-- End of Search bar -->
+
     </div>
     <!-- <div class="main-logo-container"> -->
     <!-- <a class="main-logo" href="#">Higher Ed Institution Logo</a> -->
@@ -55,6 +67,10 @@
           <a class="main-nav-item-link" href="get-involved-section">Get Involved</a>
         </li>
       </ul>
+
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js? 
+        cb=googleTranslateElementInit">
+        </script>
     </nav>
   </header>
   <nav class="mobile-nav">
@@ -196,8 +212,32 @@
 
 
     <!-- Chat with Someone Section -->
-    <section class="chat-section">
-
+    <a id="chat-section"></a>
+    <section class="chat-options-section">
+      <h3>Chat With Someone</h3>
+      <div class="chat-options-buttons">
+        <div class="grid-container">
+          <div class="tooltip">
+            <button class="chat-btn btn-orange"><i class="far fa-comments"></i></button>
+            <span class="tooltiptext">Chat now or schedule a time to talk to a peer</span>
+          </div>
+          Student Peer Support
+        </div>
+        <div class="grid-container">
+          <div class="tooltip">
+            <button class="chat-btn btn-orange"><i class="far fa-comment-alt"></i></button>
+            <span class="tooltiptext">Connect with an iPrevail Peer Coach.</span>
+          </div>
+          Connect with a Wellness Coach
+        </div>
+        <div class="grid-container">
+          <div class="tooltip">
+            <button class="chat-btn btn-orange"><i class="fas fa-user-friends"></i></button>
+            <span class="tooltiptext">Schedule an appointment for on-campus counseling</span>
+          </div>
+          Schedule counseling appointment
+        </div>
+      </div>
     </section>
 
     <!-- Get Involved Section -->

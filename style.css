@@ -827,3 +827,123 @@ footer {
   text-decoration: none; 
   color: #fff; 
 }
+
+.chat-btn {
+  display: inline-block;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  margin: 4px 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chat-options-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 4em;
+}
+
+.chat-options-buttons {
+  text-align: center;
+  padding: 4em;
+  display: inline-flex;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.search-box {
+  position: absolute;
+  top: 40%;
+  left: 91%;
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+  width: 200px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+}
+
+.search-btn{
+  color: #C34910;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 15px;
+  width: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #231911;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
