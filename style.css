@@ -53,8 +53,6 @@
 
 
 
-
-
 /* General */
 
 
@@ -554,6 +552,7 @@ html, body, nav, header, footer {
   .student-resources h5 {
     text-align: right; 
     font-style: italic; 
+    font-family: 'Rock Salt', cursive; 
   }
   
   @media (min-width: 1040px) {
@@ -711,7 +710,7 @@ html, body, nav, header, footer {
     margin: 15px 60px;
   }
   
-  .btn-orange{
+  .btn-orange {
     background-color: #C34910;
   }
   
@@ -743,18 +742,18 @@ html, body, nav, header, footer {
   
   .card {
     background-color: #ffffff;
-    width: 130px;
-    height: 200px;
+    width: 180px;
+    height: 230px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 5px 5px;
-    margin: 20px 20px;
+    margin: 20px 25px;
   }
   
   .card-text {
     font-size: 12px;
-    height: 140px;
-    margin: 0px 5px;
+    height: 170px;
+    margin: 5px 5px;
     padding-top: 10px;
   }
   
@@ -1049,6 +1048,7 @@ html, body, nav, header, footer {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    text-decoration: none;
   }
   
   .search-txt {
