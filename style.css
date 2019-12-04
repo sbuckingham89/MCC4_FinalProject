@@ -53,6 +53,7 @@
 
 
 
+
 /* General */
 
 
@@ -322,8 +323,38 @@ html, body, nav, header, footer {
   }
   
   @media (max-width: 1000px) {
-    .hero-text h1 {
-    font-size: 10vh; 
+    .hero-text {
+      font-size: 2rem;  
+      line-height: 1.0;  
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero-text {
+      font-size: 1.2rem;  
+      padding: 10px 0; 
+    }
+  }
+
+  @media (max-width: 400px) {
+    .hero-text {
+      font-size: 1.0rem;  
+      padding: 10px 0; 
+    }
+  }
+
+  @media (max-width: 1000px) {
+   .hero-text-sub {
+      font-size: 1rem;   
+      padding: 10px 0; 
+    }
+  }
+
+
+  @media (max-width: 1000px) {
+    .hero-image {
+    height: 100vh; 
+    width: auto;   
     }
   }
   
@@ -338,6 +369,7 @@ html, body, nav, header, footer {
   
   /* 4. User Directory: How Can We Help? Section */
   /* How can we help BEGIN */
+
   .reach-out {
     text-align: center;
     background-color: #F2F2F2;
@@ -369,7 +401,12 @@ html, body, nav, header, footer {
     margin-top: -20px;
   }
   /* How can we help END */
-  /* 5. Background Info: Did You Know? Section */
+
+
+ 
+  /* 5. Background Info: Did You Know? Section */  
+
+
   
   .background-info {
     background-color: #7b9a7b;  
@@ -1107,198 +1144,3 @@ html, body, nav, header, footer {
     border-style: solid;
     border-color: black transparent transparent transparent;
   }
-
-  [type="date"] {
-    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
-  }
-  [type="date"]::-webkit-inner-spin-button {
-    display: none;
-  }
-  [type="date"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-  }
-
-  input {
-    border: 1px solid #c4c4c4;
-    background-color: #fff;  
-    width: 95px;
-  }
-
-  .coc-input {
-    height: 40px;
-    font-size: 16px;
-    padding-left: 3px;
-    padding-right: 3px;
-    border: 1px solid #999;
-    width: 180px;
-    /* variations */
-  }
-
-  .coc-form {
-      padding-top: 50px;
-      padding-left: 20px;
-  }
-
-  select {
-    width: 150px;
-    padding: 5px 35px 5px 5px;
-    font-size: 16px;
-    border: 1px solid #C34910;
-    height: 34px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    color: white;
-    background: url(images/translate.png) 96% / 15% no-repeat #231911;
-  }
-  
-  /* CAUTION: IE hackery ahead */
-  select::-ms-expand { 
-      display: none; /* remove default arrow on ie10 and ie11 */
-  }
-  
-  /* target Internet Explorer 9 to undo the custom arrow */
-  @media screen and (min-width:0\0) {
-      select {
-          background:none\9;
-          padding: 5px\9;
-      } 
-  }
-
-  .translation-dropdown {
-    position: absolute;
-    display: flex;
-  }
-
-  .container {
-    display: flex;
-    height: 100vh;
-  }
-  .left-section {
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    -webkit-animation-name: left-section;
-            animation-name: left-section;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-  }
-  .right-section {
-    flex: 1;
-    background: linear-gradient(to right, #c34910 0%, #fd9d08 100%);
-    transition: 1s;
-    background-image: url(images/Two-people-connect-over-coffee.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .header > h1 {
-    margin: 0;
-    color: #c34910;
-  }
-  .header > h4 {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 15px;
-    color: #a1a19b;
-  }
-  .form {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-  .form > p {
-    text-align: right;
-  }
-  .form > p > a {
-    color: #000;
-    font-size: 14px;
-  }
-  .form-field {
-    height: 46px;
-    padding: 0 16px;
-    border: 2px solid #a1a19b;
-    border-radius: 4px;
-    outline: 0;
-    transition: .2s;
-    margin-top: 20px;
-  }
-  .form-field:focus {
-    border-color: #0f7ef1;
-  }
-  .form > button {
-    padding: 12px 10px;
-    border: 0;
-    background: linear-gradient(to right, #c34910 0%, #7b9a7b 100%);
-    border-radius: 3px;
-    margin-top: 10px;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .animation {
-    -webkit-animation-name: move;
-            animation-name: move;
-    -webkit-animation-duration: .4s;
-            animation-duration: .4s;
-    -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-   
-  .a1 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-  .a2 {
-    -webkit-animation-delay: 2.1s;
-            animation-delay: 2.1s;
-  }
-  .a3 {
-    -webkit-animation-delay: 2.2s;
-            animation-delay: 2.2s;
-  }
-  .a4 {
-    -webkit-animation-delay: 2.3s;
-            animation-delay: 2.3s;
-  }
-  .a5 {
-    -webkit-animation-delay: 2.4s;
-            animation-delay: 2.4s;
-  }
-  .a6 {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
-  }
-  @keyframes move {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-      -webkit-transform: translateY(-40px);
-              transform: translateY(-40px);
-    }
-    100% {
-      opacity: 1;
-      visibility: visible;
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-    }
-  }
-  @keyframes left-section {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    100% {
-      opacity: 1;
-      padding: 20px 40px;
-      width: 440px;
-    }
-  }
-  
