@@ -175,7 +175,8 @@ html, body, nav, header, footer {
       display: none;
       text-align: right;
       width: calc(100% - 122px);
-      vertical-align: middle;
+      vertical-align: middle; 
+      padding: 1rem;
     }
     
     .main-nav-items {
@@ -233,7 +234,7 @@ html, body, nav, header, footer {
       line-height: 2;
       background: #fff;
       width: 80%;
-      height: 100vh;
+      height: 100vh; 
     }
     
     .mobile-nav-items {
@@ -247,6 +248,7 @@ html, body, nav, header, footer {
     
     .mobile-nav-item {
       margin: 1rem 0;
+     
     }
     
     .mobile-nav-item-link {
