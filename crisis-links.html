@@ -16,6 +16,8 @@
   <!--Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+  integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 </head> 
  
 <body>
@@ -32,6 +34,82 @@
       <!-- <img src="images/uhost-icon.png" alt="Higher Ed Institution logo"> -->
       <span>Higher Ed Logo</span>
     </a>
+    <!-- Language & Search bar -->
+    <div class="translation-dropdown">
+      <select>
+        <option>Afrikaans</option>
+        <option>Albanian</option>
+        <option>Arabic</option>
+        <option>Azerbaijani</option>
+        <option>Basque</option>
+        <option>Bengali</option>
+        <option>Belarusian</option>
+        <option>Bulgarian</option>
+        <option>Catalan</option>
+        <option>Chinese Simplified</option>
+        <option>Chinese Traditional </option>
+        <option>Croatian Norwegian</option>
+        <option>Czech</option>
+        <option>Danish</option>
+        <option>Dutch</option>
+        <option selected>English</option>
+        <option>Esperanto</option>
+        <option>Estonian</option>
+        <option>Filipino</option>
+        <option>Finnish</option>
+        <option>French</option>
+        <option>Galician</option>
+        <option>Georgian</option>
+        <option>German</option>
+        <option>Greek</option>
+        <option>Gujarati</option>
+        <option>Haitian Creole</option>
+        <option>Hebrew</option>
+        <option>Hindi</option>
+        <option>Hungarian</option>
+        <option>Icelandic</option>
+        <option>Indonesian</option>
+        <option>Irish</option>
+        <option>Italian</option>
+        <option>Japanese</option>
+        <option>Kannada</option>
+        <option>Korean</option>
+        <option>Latin</option>
+        <option>Latvian</option>
+        <option>Lithuanian</option>
+        <option>Macedonian</option>
+        <option>Malay</option>
+        <option>Maltese</option>
+        <option>Persian</option>
+        <option>Polish</option>
+        <option>Portuguese</option>
+        <option>Romanian</option>
+        <option>Russian</option>
+        <option>Serbian</option>
+        <option>Slovak</option>
+        <option>Slovenian</option>
+        <option>Spanish</option>
+        <option>Swahili</option>
+        <option>Swedish</option>
+        <option>Tamil</option>
+        <option>Telugu</option>
+        <option>Thai</option>
+        <option>Turkish</option>
+        <option>Ukrainian</option>
+        <option>Urdu</option>
+        <option>Vietnamese</option>
+        <option>Welsh</option>
+        <option>Yiddish</option>
+      </select>
+    </div>
+    <div class="search-box">
+      <input class="search-txt" type="text" name="" placeholder="Type to search">
+      <a class="search-btn" href="#">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+    <!-- End of Language & Search bar -->
+
   </div>
   <!-- <div class="main-logo-container"> -->
   <!-- <a class="main-logo" href="#">Higher Ed Institution Logo</a> -->
@@ -39,7 +117,7 @@
   <nav class="main-nav">
     <ul class="main-nav-items">
       <li class="main-nav-item">
-        <a class="main-nav-item-link" href="#user-directory">Get Help</a>
+        <a class="main-nav-item-link" href="index.html#how-can-we-help">Get Help</a>
       </li>
       <li class="main-nav-item">
         <a class="main-nav-item-link" href="mh_resource_page_2.html">Resources</a>
@@ -48,18 +126,22 @@
         <a class="main-nav-item-link" href="#chat-section">Chat</a>
       </li>
       <li class="main-nav-item">
-        <a class="main-nav-item-link" href="background-info">Learn</a>
+        <a class="main-nav-item-link" href="#did-you-know-section">Learn</a>
       </li>
       <li class="main-nav-item">
-        <a class="main-nav-item-link" href="get-involved-section">Get Involved</a>
+        <a class="main-nav-item-link" href="mh_resource_page_3.html">Get Involved</a>
       </li>
     </ul>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js? 
+      cb=googleTranslateElementInit">
+      </script>
   </nav>
 </header>
 <nav class="mobile-nav">
   <ul class="mobile-nav-items">
     <li class="mobile-nav-item">
-      <a class="mobile-nav-item-link" href="#user-directory">Get Help</a>
+      <a class="mobile-nav-item-link" href="index.html#how-can-we-help">Get Help</a>
     </li>
     <li class="mobile-nav-item">
       <a class="mobile-nav-item-link" href="mh_resource_page_2.html">Resources</a>
@@ -68,10 +150,10 @@
       <a class="mobile-nav-item-link" href="#chat-section">Chat</a>
     </li>
     <li class="mobile-nav-item">
-      <a class="mobile-nav-item-link" href="background-info">Learn</a>
+      <a class="mobile-nav-item-link" href="#did-you-know-section">Learn</a>
     </li>
     <li class="mobile-nav-item">
-      <a class="mobile-nav-item-link" href="get-involved-section">Get Involved</a>
+      <a class="mobile-nav-item-link" href="mh_resource_page_3.html">Get Involved</a>
     </li>
   </ul>
 </nav>
@@ -95,34 +177,36 @@
 
   <!--Footer links/secondary links/address-->
   <div class="footer-row">
-    <div class="footer-column">
-      <ul class="address">
-        <li class="address-item-1">College Counseling Center</li>
-        <li class="address-item-2">Street Address</li>
-        <li class="address-item-2">City, State 00000</li>
-        <li class="phone"><a href="#">Phone: 000-000-0000</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <ul class="footer-links">
-        <li class="footer-link-li footer-link-li-1"><a href="#">Crisis Help</a></li>
-        <li class="footer-link-li footer-link-li-2"><a href="#">Student Resources</a></li>
-        <li class="footer-link-li footer-link-li-3"><a href="#">Chat</a></li>
-        <li class="footer-link-li footer-link-li-4"><a href="#">Financial Assistance</a></li>
-        <li class="footer-link-li footer-link-li-5"><a href="#">Basic Needs Assistance</a></li>
-        <li class="footer-link-li footer-link-li-5a"><a href="#">Events</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <ul class="footer-links">
-        <li class="footer-link-li footer-link-li-6"><a href="#">Mission Statement</a></li>
-        <li class="footer-link-li footer-link-li-7"><a href="#">Help this Cause</a></li>
-        <li class="footer-link-li footer-link-li-8"><a href="#">Terms & Conditions</a></li>
-        <li class="footer-link-li footer-link-li-9"><a href="#">Privacy</a></li>
-        <li class="footer-link-li footer-link-li-10"><a href="#">Contact Site Admin</a></li>
-        <li class="footer-link-li footer-link-li-11"><a href="#">Peer Counselor Login</a></li>
-      </ul>
-    </div>
+      <div class="footer-column">
+          <ul class="address">
+              <li class="address-item-1">College Counseling Center</li>
+              <li class="address-item-2">Street Address</li>
+              <li class="address-item-2">City, State 00000</li>
+              <li class="phone"><a href="#">Phone: 000-000-0000</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <ul class="footer-links">
+              <li class="footer-link-li footer-link-li-1"><a href="crisis-links.html">Crisis Help</a></li>
+              <li class="footer-link-li footer-link-li-2"><a href="mh_resource_page_2.html">Student Resources</a>
+              </li>
+              <li class="footer-link-li footer-link-li-3"><a href="index.html#chat-section">Chat</a></li>
+              <li class="footer-link-li footer-link-li-4"><a href="#">Financial Assistance</a></li>
+              <li class="footer-link-li footer-link-li-5"><a href="#">Basic Needs Assistance</a></li>
+              <li class="footer-link-li footer-link-li-5a"><a href="#">Events</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <ul class="footer-links">
+              <li class="footer-link-li footer-link-li-6"><a href="#">Mission Statement</a></li>
+              <li class="footer-link-li footer-link-li-7"><a href="mh_resource_page_3.html">Help this Cause</a>
+              </li>
+              <li class="footer-link-li footer-link-li-8"><a href="#">Terms & Conditions</a></li>
+              <li class="footer-link-li footer-link-li-9"><a href="#">Privacy</a></li>
+              <li class="footer-link-li footer-link-li-10"><a href="#">Contact Site Admin</a></li>
+              <li class="footer-link-li footer-link-li-11"><a href="login-page.html">Peer Counselor Login</a></li>
+          </ul>
+      </div>
   </div>
 
 </footer>

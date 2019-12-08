@@ -536,7 +536,7 @@ html, body, nav, header, footer {
       min-width: 320px; 
       max-width: 100wv; 
       overflow-wrap: break-word; 
-      text-align: left; 
+      text-align: center; 
       background-color: #a1a19b;     
       box-sizing: border-box;  
       padding-left: 2rem;
@@ -643,7 +643,6 @@ html, body, nav, header, footer {
   }
   
   .get-involved-text h3 {
-    margin-top: 0rem;
     background-color: #231911; 
     color: #fff; 
     
@@ -667,22 +666,24 @@ html, body, nav, header, footer {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
-  .involved-button{
+  /* .involved-button{
     background-color: #C34910;
     border: none;
     padding: 15px 20px;
     font-size: 10px;
     color: #F2F2F2;
-    border-radius: 8px; /* 8px rounded corners */
+    border-radius: 8px; 8px rounded corners
     margin-top: 8rem;
     margin-bottom: 3rem;
     text-align: center;
     justify-content: center;
     width: 200px;
     height: 75px;
-  }
-  
+    used btn btn-orange instead to match other buttons
+  } */
   
   /* Student Mental Health Resources Page (2) */
   
@@ -743,7 +744,7 @@ html, body, nav, header, footer {
   .card {
     background-color: #ffffff;
     width: 180px;
-    height: 230px;
+    height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 5px 5px;
@@ -765,6 +766,7 @@ html, body, nav, header, footer {
   /* Add some padding inside the card container */
   .button-container {
     text-align: center;
+    padding-bottom: 10px;
   }
   
   .button-dark {
