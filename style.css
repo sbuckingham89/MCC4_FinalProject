@@ -379,8 +379,13 @@ html, body, nav, header, footer {
   
   .background-info h3 {
     text-align: center; 
-    padding: 30px; 
+    padding: 2rem; 
   }
+
+  .did-you-know {
+    padding: 4rem 0 4rem 0; 
+  }
+
   
   .flex-container {
     display: flex;
@@ -416,6 +421,7 @@ html, body, nav, header, footer {
     height: 60px;
     text-align: left;
     word-wrap: normal;
+    padding-left: 4rem; 
   }
   
   .counter {
