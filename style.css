@@ -553,16 +553,16 @@ html, body, nav, header, footer {
       padding-bottom: 2rem;
       padding-top: 2rem; 
     }
+
+    .student-resources-text h3{
+      padding-top: 2rem; 
+
+    }
   
-  .student-resources p {
+  .student-resources-text p {
     padding: 2rem 30px; 
   }
   
-  .student-resources h5 {
-    text-align: right; 
-    font-style: italic; 
-    font-family: 'Rock Salt', cursive; 
-  }
   
   @media (min-width: 1040px) {
    .student-resources-image img {
@@ -625,8 +625,6 @@ html, body, nav, header, footer {
   */
   
   
-  
-  
   .get-involved-image {
   
     width: 100vw;
@@ -677,6 +675,8 @@ html, body, nav, header, footer {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
+    padding-left: 2rem; 
+    padding-right: 2rem; 
   }
   /* .involved-button{
     background-color: #C34910;
