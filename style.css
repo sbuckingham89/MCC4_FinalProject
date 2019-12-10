@@ -475,10 +475,11 @@ html, body, nav, header, footer {
     }
   
   .testimonials-quote blockquote {
-    padding: 4rem 30px; 
+    padding: 2rem 30px; 
   }
   
   .testimonials-quote h5 {
+    font-family: 'Rock Salt', cursive; 
     text-align: right; 
     font-style: italic; 
   }
@@ -548,7 +549,7 @@ html, body, nav, header, footer {
     }
   
   .student-resources p {
-    padding: 4rem 30px; 
+    padding: 2rem 30px; 
   }
   
   .student-resources h5 {
