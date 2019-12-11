@@ -1,6 +1,6 @@
 # Next-Gen Healthy Minds Hub
 
-View on Heroku: [Next-Gen Healthy Minds Hub](link)
+View on Netlify: [Next-Gen Healthy Minds Hub](https://zenmamas.netlify.com)
 
 ## About the Project
 
